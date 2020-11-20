@@ -1,9 +1,8 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import SignedInLinks from './SignedInLinks'
 import SignedOutLinks from './SignedOutLinks'
 import { connect } from 'react-redux'
-import  { Navbar, Nav, NavItem } from 'react-bootstrap'
+import  { Navbar, Nav } from 'react-bootstrap'
 
 
 

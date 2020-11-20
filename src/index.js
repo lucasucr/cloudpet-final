@@ -7,7 +7,7 @@ import * as serviceWorker from './serviceWorker';
 import { Provider } from 'react-redux'
 import thunk from 'redux-thunk'
 import { reduxFirestore, getFirestore, createFirestoreInstance } from 'redux-firestore';
-import { ReactReduxFirebaseProvider , getFirebase, reactReduxFirebase } from 'react-redux-firebase';
+import { ReactReduxFirebaseProvider , getFirebase } from 'react-redux-firebase';
 import { createStore, applyMiddleware, compose } from 'redux'
 import fbConfig from './config/fbConfig.js'
 import firebase from './config/fbConfig'

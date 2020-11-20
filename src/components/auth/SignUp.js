@@ -1,9 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux'
-import { Link, Redirect } from 'react-router-dom'
 import { signUp } from '../../store/actions/authActions'
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
 
 
 
@@ -26,7 +23,7 @@ class SignUp extends Component {
         this.props.signUp(this.state)
     }
     render() {
-        const { auth, authError } = this.props;
+        const { authError } = this.props;
         return (
             <div className="log">
             <div id="from" className="container">
