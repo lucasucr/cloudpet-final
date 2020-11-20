@@ -4,7 +4,6 @@ import { ledOn, ledOff, alarmOn, alarmOff} from '../../store/actions/findActions
 
 class Dashboard extends Component {
     render(){
-        const { auth } = this.props;
         return(
             <div data-spy="scroll" data-target="#epico" data-offset="0">
                 <div id="home">
